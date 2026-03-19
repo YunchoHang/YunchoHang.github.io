@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on ThatGuysBroke</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on ThatGuysBroke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RootMe - Capture This</title>
+      <link>http://localhost:1313/posts/capturethis/capture-this/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/capturethis/capture-this/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>KubanCTF 2025 - Secret Archive</title>
+      <link>http://localhost:1313/posts/secretarchive/secret-archive/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/secretarchive/secret-archive/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

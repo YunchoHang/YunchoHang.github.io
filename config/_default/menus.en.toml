@@ -1,0 +1,38 @@
+# =========================================================
+# Main Navigation Menu
+# =========================================================
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Blogs"
+  pageRef = "/posts"
+  weight = 20
+
+[[main]]
+  name = "Projects"
+  pageRef = "/projects"
+  weight = 30
+
+[[main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 40
+
+
+# =========================================================
+# Footer Menu (optional, but useful)
+# =========================================================
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 20

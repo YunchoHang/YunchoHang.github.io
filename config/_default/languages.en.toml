@@ -1,0 +1,39 @@
+# =========================================================
+# Language configuration (English)
+# =========================================================
+
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 10
+title = "ThatGuysBroke"
+
+# ---------------------------------------------------------
+# Language-specific parameters
+# ---------------------------------------------------------
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+
+  description = "Cybersecurity student · CTF player"
+  copyright = "© Yuncho"
+
+# ---------------------------------------------------------
+# Default Author (Blowfish)
+# ---------------------------------------------------------
+[params.author]
+  name = "YunchoHang"
+  bio = "Cybersecurity student · CTF player · Crazy"
+  image = "/images/head.jpeg"   # MUST have leading /
+  imageIsRemote = false 
+  imageQuality = 96
+
+  links = [
+    { github   = "https://github.com/YunchoHang" },
+    { linkedin = "https://linkedin.com/in/yunchohang" },
+    { medium   = "https://medium.com/@thatguysbroke" },
+    { spotify  = "https://open.spotify.com/user/31rxgchnmlno2dx5htgjlrjhqctm" },
+    { discord  = "thatguysbroke" }
+  ]
