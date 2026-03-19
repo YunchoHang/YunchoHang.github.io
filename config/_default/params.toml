@@ -1,226 +1,48 @@
-# =========================================================
-# Blowfish Theme Parameters
-# https://blowfish.page/docs/configuration/
-# =========================================================
+description = "Cybersecurity student, ethical hacker, and CTF enthusiast sharing knowledge about information security"
+keywords = ["cybersecurity", "ethical hacking", "penetration testing", "CTF", "security", "reverse engineering"]
 
-# -----------------------
-# Appearance
-# -----------------------
-colorScheme = "blowfish"
-defaultAppearance = "dark"
-autoSwitchAppearance = true
-
-enableA11y = false
-enableSearch = true
-enableCodeCopy = true
-enableStructuredBreadcrumbs = false
-enableEmoji = true
-
-replyByEmail = false
-
-# -----------------------
-# Images & Media
-# -----------------------
+disableHero = false
 defaultBackgroundImage = "images/Back.jpg"
-# defaultFeaturedImage = "img/default-feature.jpg"
-# defaultSocialImage = "img/og.png"
 
-hotlinkFeatureImage = false
-disableImageOptimization = false
-disableImageOptimizationMD = false
+[author]
+  name = "YunchoHang"
+  email = "yunchohanglimbu123@gmail.com"
+  image = "images/JT.jpeg"
+  imageQuality = 96
+  headline = "Cybersecurity Student & Ethical Hacker"
+  bio = "I break things to learn how to fix them. CTF player and infosec enthusiast."
+  links = [
+    { github = "https://github.com/YunchoHang" },
+    { linkedin = "https://linkedin.com/in/yunchohang" },
+    { discord = "thatguysbroke" },
+    { medium = "https://medium.com/@thatguysbroke" }
+  ]
 
-fingerprintAlgorithm = "sha512"
-
-# -----------------------
-# Header
-# -----------------------
-[header]
-  layout = "fixed-fill-blur"
-  # valid options:
-  # basic | fixed | fixed-fill | fixed-gradient | fixed-fill-blur
-
-# -----------------------
-# Footer
-# -----------------------
-[footer]
-  showMenu = true
-  showCopyright = false
-  showThemeAttribution = false
-  showAppearanceSwitcher = true
-  showScrollToTop = true
-
-# -----------------------
-# Homepage
-# -----------------------
 [homepage]
-  layout = "hero"
-  homepageImage = "images/Back.jpg"
-
   showRecent = true
   showRecentItems = 6
-
+  cardView = true
+  cardViewScreenWidth = false
   showMoreLink = true
   showMoreLinkDest = "/posts/"
+  layout = "hero"
+  layoutBackgroundBlur = true
+  showDescription = false
 
+[list]
+  showCards = true
+  showSummary = true
+  showHero = true
+  heroStyle = "thumbAndBackground"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
   cardView = true
   cardViewScreenWidth = false
 
-  layoutBackgroundBlur = true
-  disableHeroImageFilter = false
-
-# -----------------------
-# Article Pages
-# -----------------------
 [article]
-  showDate = true
-  showDateOnlyInArticle = false
-  showDateUpdated = false
-
-  showAuthor = true
-  showAuthorsBadges = false
-
   showHero = true
   heroStyle = "background"
   layoutBackgroundBlur = true
   layoutBackgroundHeaderSpace = true
-
-  showBreadcrumbs = false
-  showDraftLabel = true
-
-  showReadingTime = true
-  showWordCount = true
-  showHeadingAnchors = true
-  showTableOfContents = true
-
-  showPagination = true
-  invertPagination = false
-
-  showTaxonomies = false
-  showCategoryOnly = false
-
-  showZenMode = true
-
-  showViews = false
-  showLikes = false
-
-  showEdit = false
-  # editURL = "https://github.com/USERNAME/REPO/"
-  editAppendPath = true
-
-  seriesOpened = false
-
-# -----------------------
-# List Pages (posts, ctf, projects)
-# -----------------------
-[list]
-  showHero = true
-  heroStyle = "background"
-
-  layoutBackgroundBlur = true
-  layoutBackgroundHeaderSpace = false
-
-  showBreadcrumbs = false
-  showSummary = false
-
-  showViews = false
-  showLikes = false
-
-  showTableOfContents = false
-
-  showCards = true
-  cardView = true
-  cardViewScreenWidth = false
-
-  orderByWeight = false
-  groupByYear = true
-  constrainItemsWidth = false
-
-# -----------------------
-# Taxonomy Pages (tags, categories, series)
-# -----------------------
-[taxonomy]
-  showTermCount = true
-  showHero = true
-  heroStyle = "background"
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = false
-  cardView = true
-
-# -----------------------
-# Term Pages (single tag/category)
-# -----------------------
-[term]
-  showHero = true
-  heroStyle = "background"
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  groupByYear = false
-  cardView = true
-  cardViewScreenWidth = false
-
-# -----------------------
-# Sitemap
-# -----------------------
-[sitemap]
-  excludedKinds = ["taxonomy", "term"]
-
-# -----------------------
-# Firebase (Views & Likes)
-# -----------------------
-[firebase]
-  # apiKey = "XXXX"
-  # authDomain = "XXXX"
-  # projectId = "XXXX"
-  # storageBucket = "XXXX"
-  # messagingSenderId = "XXXX"
-  # appId = "XXXX"
-  # measurementId = "XXXX"
-
-# -----------------------
-# Analytics (Optional)
-# -----------------------
-googleAnalytics = "G-0Z1ZE7CENM"
-
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "analytics.example.com"
-
-[umamiAnalytics]
-  # websiteid = "ABC12345"
-  # domain = "analytics.example.com"
-  # dataDomains = "example.com"
-  # enableTrackEvent = true
-
-[selineAnalytics]
-  # token = "XXXX"
-  # enableTrackEvent = true
-
-# -----------------------
-# Monetization (Optional)
-# -----------------------
-[buymeacoffee]
-  # identifier = "yourname"
-  # globalWidget = true
-  # globalWidgetMessage = "Support my work ☕"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "right"
-
-# -----------------------
-# Verification
-# -----------------------
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
-  # fediverse = ""
-
-# -----------------------
-# Ads (Optional)
-# -----------------------
-[advertisement]
-  # adsense = ""
+  showAuthor = true
+  showAuthorBottom = true

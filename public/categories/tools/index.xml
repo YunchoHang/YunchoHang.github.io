@@ -6,15 +6,57 @@
     <description>Recent content in Tools on ThatGuysBroke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>yunchohanglimbu123@gmail.com (YunchoHang)</managingEditor>
+    <webMaster>yunchohanglimbu123@gmail.com (YunchoHang)</webMaster>
+    <copyright>© Yuncho</copyright>
+    <lastBuildDate>Mon, 17 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     
-    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IP Subnetting Tool</title>
+      <link>http://localhost:1313/projects/subnet/</link>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <author>yunchohanglimbu123@gmail.com (YunchoHang)</author>
+      <guid>http://localhost:1313/projects/subnet/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Shellshock Exploiter</title>
+      <link>http://localhost:1313/projects/autoshocker/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <author>yunchohanglimbu123@gmail.com (YunchoHang)</author>
+      <guid>http://localhost:1313/projects/autoshocker/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Shellshock Exploiter</title>
       <link>http://localhost:1313/projects/shellshock/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      
+      <author>yunchohanglimbu123@gmail.com (YunchoHang)</author>
       <guid>http://localhost:1313/projects/shellshock/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Steganography Tool</title>
+      <link>http://localhost:1313/projects/steg/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <author>yunchohanglimbu123@gmail.com (YunchoHang)</author>
+      <guid>http://localhost:1313/projects/steg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>X11 Keylogger</title>
+      <link>http://localhost:1313/projects/keylogger/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <author>yunchohanglimbu123@gmail.com (YunchoHang)</author>
+      <guid>http://localhost:1313/projects/keylogger/</guid>
       <description></description>
       
     </item>

@@ -1,16 +1,46 @@
-baseURL = "https://YunchoHang.github.io/
 theme = "blowfish"
-title = "YunchoHang"
-languageCode = "en"
+baseURL = "https://YunchoHang.github.io/"
+canonifyURLs = true
 defaultContentLanguage = "en"
-mainSections = ["posts", "projects"]
-
 enableRobotsTXT = true
-enableEmoji = true
-
 summaryLength = 0
+
 buildDrafts = false
 buildFuture = false
+enableEmoji = true
+
+mainSections = ["posts", "projects"]
+
+ignoreFiles = [
+  "themes/blowfish/exampleSite/.*",
+  "themes/blowfish/archetypes/.*",
+  "themes/blowfish/README\\.md",
+  "themes/blowfish/LICENSE",
+  "themes/blowfish/CHANGELOG\\.md"
+]
+
+googleAnalytics = "G-0Z1ZE7CENM"
+
+title = "ThatGuysBroke"
+author = "YunchoHang"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
 
 [pagination]
   pagerSize = 100
@@ -35,29 +65,23 @@ buildFuture = false
 [related]
   threshold = 0
   toLower = false
-
   [[related.indices]]
     name = "tags"
     weight = 100
-
   [[related.indices]]
     name = "categories"
     weight = 100
-
   [[related.indices]]
     name = "series"
     weight = 50
-
   [[related.indices]]
     name = "authors"
     weight = 20
-
   [[related.indices]]
     name = "date"
     weight = 10
-
   [[related.indices]]
-    applyFilter = false
     name = "fragmentrefs"
     type = "fragments"
     weight = 10
+    applyFilter = false

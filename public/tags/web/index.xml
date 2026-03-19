@@ -6,15 +6,27 @@
     <description>Recent content in Web on ThatGuysBroke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    
+    <managingEditor>yunchohanglimbu123@gmail.com (YunchoHang)</managingEditor>
+    <webMaster>yunchohanglimbu123@gmail.com (YunchoHang)</webMaster>
+    <copyright>© Yuncho</copyright>
     <lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>KubanCTF 2025 - Secret Archive</title>
       <link>http://localhost:1313/posts/secretarchive/secret-archive/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      
+      <author>yunchohanglimbu123@gmail.com (YunchoHang)</author>
       <guid>http://localhost:1313/posts/secretarchive/secret-archive/</guid>
+      <description>Exploiting an IDOR vulnerability in a Flask password vault to steal admin credentials and capture the flag.</description>
+      
+    </item>
+    
+    <item>
+      <title>Shellshock Exploiter</title>
+      <link>http://localhost:1313/projects/autoshocker/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <author>yunchohanglimbu123@gmail.com (YunchoHang)</author>
+      <guid>http://localhost:1313/projects/autoshocker/</guid>
       <description></description>
       
     </item>
@@ -23,7 +35,7 @@
       <title>Shellshock Exploiter</title>
       <link>http://localhost:1313/projects/shellshock/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      
+      <author>yunchohanglimbu123@gmail.com (YunchoHang)</author>
       <guid>http://localhost:1313/projects/shellshock/</guid>
       <description></description>
       

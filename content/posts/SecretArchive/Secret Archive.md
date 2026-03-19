@@ -2,12 +2,15 @@
 title: "KubanCTF 2025 - Secret Archive"
 date: 2025-08-26
 draft: false
-tags: ["Web", "blog", "CTF", "IDOR"]
+tags: ["Web", "CTF", "IDOR", "Flask"]
 categories: ["CTF Writeups"]
-featureimage: "feature-image.png" 
+featureimage: "feature-image.png"
 showHero: true
 heroStyle: "background"
-description: "Web challenge writeup from KubanCTF 2025 involving an IDOR vulnerability."
+showAuthor: true
+showAuthorBottom: true
+description: "Exploiting an IDOR vulnerability in a Flask password vault to steal admin credentials and capture the flag."
+summary: "Exploiting an IDOR vulnerability in a Flask password vault to steal admin credentials and capture the flag."
 ---   
 # Secret Archive
 
