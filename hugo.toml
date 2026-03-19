@@ -1,0 +1,148 @@
+theme = "blowfish"
+baseURL = "https://YunchoHang.github.io/"
+canonifyURLs = true
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+summaryLength = 0
+
+buildDrafts = false
+buildFuture = false
+enableEmoji = true
+
+mainSections = ["posts", "projects"]
+
+# Exclude theme example content from build
+ignoreFiles = [
+  "themes/blowfish/exampleSite/.*",
+  "themes/blowfish/archetypes/.*",
+  "themes/blowfish/README\\.md",
+  "themes/blowfish/LICENSE",
+  "themes/blowfish/CHANGELOG\\.md"
+]
+
+googleAnalytics = "G-0Z1ZE7CENM"
+
+# Site Information
+title = "ThatGuysBroke"
+description = "Cybersecurity student, ethical hacker, and CTF enthusiast sharing knowledge about information security"
+keywords = ["cybersecurity", "ethical hacking", "penetration testing", "CTF", "security", "reverse engineering"]
+author = "YunchoHang"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[params.author]
+  name = "YunchoHang"
+  email = "yunchohanglimbu123@gmail.com"
+  image = "images/JT.jpeg"
+  imageQuality = 96
+  headline = "Cybersecurity Student & Ethical Hacker"
+  bio = "I break things to learn how to fix them. CTF player and infosec enthusiast."
+  links = [
+    { github = "https://github.com/YunchoHang" },
+    { linkedin = "https://linkedin.com/in/yunchohang" },
+    { discord = "thatguysbroke" },
+    { medium = "https://medium.com/@thatguysbroke" },
+  ]
+
+[params]
+  disableHero = false  # Make sure this is not true
+  defaultBackgroundImage = "images/kool.jpeg"
+
+  [params.homepage]
+    showRecent = true
+    showRecentItems = 6
+    cardView = true
+    cardViewScreenWidth = false
+    showMoreLink = true
+    showMoreLinkDest = "/posts/"
+    layout = "background"
+    layoutBackgroundBlur = true
+
+  [params.hero]
+    enabled = true
+    heading = "Welcome to My Cybersecurity Blog"
+    background = "/images/damn.jpeg"
+    subtitle = "Cybersecurity, Hacking & Projects"
+
+  [params.list]
+    showCards = true
+    showSummary = true
+    showHero = true
+    heroStyle = "background"
+    layoutBackgroundBlur = true
+    layoutBackgroundHeaderSpace = true
+
+  [params.article]
+    showHero = true
+    heroStyle = "background"
+    layoutBackgroundBlur = true
+    layoutBackgroundHeaderSpace = true
+
+[pagination]
+  pagerSize = 100
+
+[imaging]
+  anchor = "Center"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[related]
+  threshold = 0
+  toLower = false
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+
+  [[related.indices]]
+    name = "series"
+    weight = 50
+
+  [[related.indices]]
+    name = "authors"
+    weight = 20
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+  [[related.indices]]
+    name = "fragmentrefs"
+    type = "fragments"
+    weight = 10
+    applyFilter = false
