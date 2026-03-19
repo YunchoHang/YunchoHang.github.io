@@ -1,5 +1,4 @@
-baseURL = "http://localhost/"
-# baseURL = "https://YunchoHang.github.io/
+baseURL = "https://YunchoHang.github.io/
 theme = "blowfish"
 title = "YunchoHang"
 languageCode = "en"
